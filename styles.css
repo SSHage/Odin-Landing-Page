@@ -1,3 +1,98 @@
-.text {
-    background-color: blue;
+body {
+    font-family: Roboto, Georgia, 'Times New Roman';
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.header-left, .header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    width: 500px;
+}
+
+.sec-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+.top-button{
+    display: flex;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    width:fit-content;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    align-items: center;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.cookie-infographics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.choc-chip, .danish-butter, .peanut-butter, .raspberry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: flex-end;
+    color: #f9faf8;
+    font-size: 12px;
 }
